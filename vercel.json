@@ -1,0 +1,14 @@
+{
+  "framework": "nextjs",
+  "functions": {
+    "app/api/knowledge/upload/route.ts": {
+      "maxDuration": 60
+    },
+    "app/api/knowledge/website/route.ts": {
+      "maxDuration": 60
+    },
+    "app/api/knowledge/[id]/reprocess/route.ts": {
+      "maxDuration": 60
+    }
+  }
+}
