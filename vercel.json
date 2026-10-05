@@ -1,5 +1,11 @@
 {
   "framework": "nextjs",
+  "crons": [
+    {
+      "path": "/api/cron/keep-alive",
+      "schedule": "0 3 * * *"
+    }
+  ],
   "functions": {
     "app/api/knowledge/upload/route.ts": {
       "maxDuration": 60
